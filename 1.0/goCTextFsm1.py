@@ -1,11 +1,11 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 ##!/usr/bin/python
 ##!/usr/local/bin/python
 
-from CTextFsm import CTextFsm
-from CTextFsm import Aclobj
-from CTextFsm import MyIpAddress
+from CTextFsm1 import CTextFsm
+from CTextFsm1 import Aclobj
+from CTextFsm1 import MyIpAddress
 
 import pprint
 import ipaddress
@@ -171,7 +171,7 @@ if __name__ == '__main__':
     #    ctextfsm.put_testacl()
     #    exit(0)
     ctextfsm.ipnet_strict = True
-    confobj = ctextfsm.set_acl('goCTextFsm.test')
+    confobj = ctextfsm.set_acl('./goCTextFsm.test')
     net4obj = ctextfsm.parsed2acl(confobj)
     # pprint.pprint(confobj)
     # pprint.pprint(net4obj)
