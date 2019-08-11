@@ -13,10 +13,10 @@ import sys
 import re
 import pprint
 import ipaddress
-from CTextFsm2 import CTextFsm
-from CTextFsm2 import eInt
-from CTextFsm2 import CiscoShrun
-from CTextFsm2 import MyIpAddress
+from CTextFsm import CTextFsm
+from CTextFsm import eInt
+from CTextFsm import CiscoShrun
+from CTextFsm import MyIpAddress
 from enum import Enum
 
 

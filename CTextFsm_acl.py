@@ -3,9 +3,9 @@
 ##!/usr/bin/python
 ##!/usr/local/bin/python
 
-from CTextFsm2 import CTextFsm
-from CTextFsm2 import Aclobj
-from CTextFsm2 import MyIpAddress
+from CTextFsm import CTextFsm
+from CTextFsm import Aclobj
+from CTextFsm import MyIpAddress
 
 import pprint
 import ipaddress

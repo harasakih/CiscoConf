@@ -981,14 +981,18 @@ class CTextFsm(object):
             pass
 
             if srcmask != '':
-#                src = MyIpAddress.ipwild2ip(srcip, srcmask)
+                """ IP/masklをチェックする。aclobjは、wildmaskを設定
+                """
+                MyIpAddress.ipwild2ip(srcip, srcmask)
                 src = srcip + '/' + srcmask
             else:
                 src = srcip
 
             #
             if dstmask != '':
-#                dst = MyIpAddress.ipwild2ip(dstip, dstmask)
+                """ IP/masklをチェックする。aclobjは、wildmaskを設定
+                """
+                MyIpAddress.ipwild2ip(dstip, dstmask)
                 dst = dstip + '/' + dstmask
             else:
                 dst = dstip
