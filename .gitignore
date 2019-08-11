@@ -1,0 +1,13 @@
+# ingore folder
+.svn/
+.git/
+.idea/
+html/
+latex/
+venv/
+
+# ignore file
+*.DS_Store
+*.swp
+*.svnignore
+*.pyc
